@@ -1,0 +1,8 @@
+{
+  "name": "temporal-python-skills",
+  "description": "Temporal Python skill bundle for safe workflow development and deployment.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Willy Lew"
+  }
+}

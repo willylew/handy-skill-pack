@@ -1,0 +1,44 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "handy-skill-pack",
+  "owner": {
+    "name": "Willy Lew",
+    "url": "https://github.com/willylew"
+  },
+  "metadata": {
+    "description": "Handy dandy reusable coding skills for Claude Code and Codex CLI.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "temporal-python-skills",
+      "description": "Temporal Python workflow skills for retry policies, testing, replay safety, and deterministic deployments.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Willy Lew"
+      },
+      "source": "./plugins/temporal-python-skills",
+      "category": "development",
+      "strict": false,
+      "skills": [
+        "./skills/temporal-retry-policies",
+        "./skills/temporal-testing-ci",
+        "./skills/temporal-versioning-determinism"
+      ]
+    },
+    {
+      "name": "kafka-reliability-skills",
+      "description": "Classic Kafka consumer and producer reliability skills for explicit commit strategy, idempotent processing, and DLQ design.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Willy Lew"
+      },
+      "source": "./plugins/kafka-reliability-skills",
+      "category": "development",
+      "strict": false,
+      "skills": [
+        "./skills/kafka-reliability-idempotency"
+      ]
+    }
+  ]
+}

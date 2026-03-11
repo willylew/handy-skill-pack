@@ -1,0 +1,8 @@
+{
+  "name": "kafka-reliability-skills",
+  "description": "Classic Kafka reliability skill bundle for explicit commit strategy, idempotent processing, and DLQ handling.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Willy Lew"
+  }
+}
