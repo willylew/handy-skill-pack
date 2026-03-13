@@ -4,5 +4,10 @@
   "version": "0.1.0",
   "author": {
     "name": "Willy Lew"
-  }
+  },
+  "skills": [
+    "./skills/temporal-retry-policies",
+    "./skills/temporal-testing-ci",
+    "./skills/temporal-versioning-determinism"
+  ]
 }

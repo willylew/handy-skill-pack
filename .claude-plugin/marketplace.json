@@ -19,12 +19,7 @@
       },
       "source": "./plugins/temporal-python-skills",
       "category": "development",
-      "strict": false,
-      "skills": [
-        "./skills/temporal-retry-policies",
-        "./skills/temporal-testing-ci",
-        "./skills/temporal-versioning-determinism"
-      ]
+      "strict": false
     },
     {
       "name": "kafka-reliability-skills",
@@ -35,10 +30,7 @@
       },
       "source": "./plugins/kafka-reliability-skills",
       "category": "development",
-      "strict": false,
-      "skills": [
-        "./skills/kafka-reliability-idempotency"
-      ]
+      "strict": false
     }
   ]
 }
